@@ -1,0 +1,95 @@
+body {
+  background-image: url(../img/banner-mobile.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  font-family: "Roboto", sans-serif;
+}
+header div {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+}
+
+header a {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+}
+
+.begin-text {
+  color: #fff;
+  margin: 5%;
+  font-size: 1.2rem;
+}
+
+.search-informations {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 28px;
+  flex-direction: column;
+  margin: 0 35px;
+  padding: 13px;
+  border-radius: 10px;
+}
+
+.form-choices {
+  font-size: 15px;
+}
+
+.origem,
+.destino,
+.ida-data,
+.volta-data {
+  width: 289px;
+}
+.origem img,
+.destino img,
+.ida-data img,
+.volta-data img {
+  width: 16px;
+}
+
+.volta-data input,
+.ida-data input,
+.origem input,
+.destino input {
+  border: none;
+  background: none;
+}
+.arrow {
+  margin-left: 26%;
+}
+
+form > div {
+  border: solid #c4c4c4 2px;
+  padding: 4px;
+  margin: 6px;
+  border-radius: 5px;
+}
+.btn-buscar button {
+  background-color: #f11075;
+  width: 267px;
+  height: 38px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #fff;
+}
+
+.btn-buscar img {
+  width: 18px;
+}
+
+.navigation {
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+
+.navigation img {
+  width: 35px;
+}
