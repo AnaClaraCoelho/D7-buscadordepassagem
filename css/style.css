@@ -5,6 +5,14 @@ body {
   background-position: top;
   font-family: "Roboto", sans-serif;
 }
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header {
+  width: 100%;
+}
 header div {
   background-color: #fff;
   display: flex;
@@ -12,14 +20,14 @@ header div {
 }
 
 header a {
-  display: flex;
-  flex-direction: column;
-  align-self: flex-end;
+  text-decoration: none;
+  font-size: 20px;
+  color: #f11075;
 }
 
 .begin-text {
   color: #fff;
-  margin: 5%;
+  margin: 4%;
   font-size: 1.2rem;
 }
 
@@ -86,10 +94,12 @@ form > div {
 .navigation {
   background-color: white;
   display: flex;
-  justify-content: space-evenly;
   align-items: flex-end;
+  position: absolute;
+  bottom: 0;
 }
 
 .navigation img {
-  width: 35px;
+  width: 22px;
+  margin-left: 20%;
 }
